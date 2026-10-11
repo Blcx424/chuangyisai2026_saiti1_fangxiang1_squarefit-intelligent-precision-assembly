@@ -1,0 +1,32 @@
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local editor settings
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Locally generated datasets, models and evaluation results
+data/
+artifacts/
+*.pt
+*.pth
+*.ckpt
+
+# Local configuration and secrets
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Operating-system files
+.DS_Store
+Thumbs.db
